@@ -1,0 +1,23 @@
+<model name="soybean">
+      <link name="soybean_link">
+        <pose>1.5 -2.5 0 0 0 0</pose>
+        <collision name="soybean_collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/naik/soybean.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="soybean">
+          <geometry>
+            <mesh>
+              <uri>file:///home/naik/soybean.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <cast_shadows>false</cast_shadows>
+        </visual>
+      </link>
+      <static>true</static>
+</model>
